@@ -1,213 +1,742 @@
-
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>비주류 문화 지식 저널 및 아카이브</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
-  <style>
-    :root {
-      --cream-bg: #fdfdfa;
-      --charcoal-fg: #1c1a17;
-      --gold-accent: #c29d6d;
-      --hairline-color: #e6e3db;
-      --serif-font: 'Nanum Myeongjo', serif;
-      --sans-font: 'Outfit', sans-serif;
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>마포 노래방 추천 가이드 — 지역별 특성과 조건에 맞는 선택 지침</title>
+    <meta name="description" content="마포 지역 노래방 선택을 위한 체계적 가이드. 이용 환경, 주변 시설, 목적별 맞춤 추천 기준과 주의사항을 분석하여 안내합니다.">
+    <meta name="keywords" content="마포 노래방, 마포 노래방 추천, 마포 노래방 가이드, 마포 노래방 조건, 마포 노래방 선택">
+    <meta name="author" content="로컬 인사이트 큐레이터">
+    <link rel="canonical" href="https://mapo-karaoke-note.best-samseong-hotplace.xyz">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="마포 노래방 추천 가이드 — 지역별 특성과 조건에 맞는 선택 지침">
+    <meta property="og:description" content="마포 지역 노래방 선택을 위한 체계적 가이드. 이용 환경, 주변 시설, 목적별 맞춤 추천 기준과 주의사항을 분석하여 안내합니다.">
+    <meta property="og:url" content="https://mapo-karaoke-note.best-samseong-hotplace.xyz">
+    <meta property="og:site_name" content="마포 노래방 추천 가이드">
+    <meta property="og:image" content="https://mapo-karaoke-note.best-samseong-hotplace.xyz/og-image.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="마포 노래방 추천 가이드 — 지역별 특성과 조건에 맞는 선택 지침">
+    <meta name="twitter:description" content="마포 지역 노래방 선택을 위한 체계적 가이드. 이용 환경, 주변 시설, 목적별 맞춤 추천 기준과 주의사항을 분석하여 안내합니다.">
+    <meta name="bpaas-design-system" content="editorial-apple">
+    <meta name="bpaas-design-theme" content="kr-mono-chrome">
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "마포 노래방 추천 가이드",
+        "url": "https://mapo-karaoke-note.best-samseong-hotplace.xyz",
+        "author": {
+            "@type": "Person",
+            "name": "로컬 인사이트 큐레이터"
+        }
     }
-    * { margin: 0; padding: 0; box-sizing: border-box; }
-    body {
-      background-color: var(--cream-bg);
-      color: var(--charcoal-fg);
-      font-family: var(--sans-font);
-      line-height: 1.8;
-      padding: 0 40px;
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "마포 노래방에서 가장 중요한 선택 기준은 무엇인가요?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "방문 목적이 가장 중요합니다. 대규모 인원 회식을 위해서는 프라이빗 룸 비율과 주차 공간 확보 여부를, 고품질 음향을 원한다면 최신 장비와 방음 상태를 반드시 확인해야 합니다. 목적에 따른 우선순위를 설정하는 것이 합리적 선택의 첫 단계입니다."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "주말과 평일 이용 시 차이점이 있나요? 예약이 필수인가요?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "네, 상당한 차이가 있습니다. 마포지역 노래방은 주말 저녁과 금요일 밤에 수요가 집중되어 예약이 거의 필수적입니다. 평일 오후에는 상대적으로 여유롭고 주말 대비 합리적인 요금으로 이용 가능한 경우가 많으므로, 유연한 일정이 가능하다면 평일 방문을 권장합니다."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "마포 지역 노래방 근처에 주차하기가 어렵나요?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "상권과 노래방 시설에 따라 크게 다릅니다. 대로변이나 대형 건물 내 입점한 업장은 지하 주차장을 갖추고 있는 경우가 많지만, 골목 상권이나 1·2인 소규모 업장은 주차 공간이 매우 협소할 수 있습니다. 방문 전 전화로 주차 가능 여부와 요금을 사전 확인하는 것이 필수적입니다."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "비즈니스 접대 목적으로 적합한 고급 노래방은 어떻게 찾나요?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "우선 방음 수준, 룸 인테리어, 비품 상태, 그리고 주류와 음식 메뉴의 품질을 종합적으로 평가해야 합니다. 온라인에서 해당 업장의 블로그나 리뷰를 통해 실제 룸 사진과 이용 후기를 확인하는 것이 도움이 됩니다. 또한, 전화 예약 시 '비즈니스 회식'임을 명시하고 별도 룸 배정이나 메뉴 상담을 요청하는 것이 효과적입니다."
+                }
+            }
+        ]
     }
-    .wrapper {
-      max-width: 960px;
-      margin: 0 auto;
-      padding: 80px 0;
-    }
-    header {
-      border-bottom: 1px solid var(--hairline-color);
-      padding-bottom: 32px;
-      margin-bottom: 60px;
-      display: flex;
-      justify-content: space-between;
-      align-items: baseline;
-    }
-    .brand {
-      font-family: var(--serif-font);
-      font-size: 1.5rem;
-      font-weight: 800;
-      color: var(--charcoal-fg);
-      text-decoration: none;
-      letter-spacing: 0.05em;
-    }
-    nav { display: flex; gap: 32px; }
-    nav a {
-      color: var(--charcoal-fg);
-      text-decoration: none;
-      font-size: 0.8rem;
-      font-weight: 600;
-      text-transform: uppercase;
-      letter-spacing: 0.15em;
-      transition: color 0.3s ease;
-    }
-    nav a:hover { color: var(--gold-accent); }
-    main { padding-bottom: 80px; }
-    .kicker {
-      font-size: 0.75rem;
-      font-weight: 600;
-      text-transform: uppercase;
-      letter-spacing: 0.2em;
-      color: var(--gold-accent);
-      margin-bottom: 24px;
-    }
-    h1 {
-      font-family: var(--serif-font);
-      font-size: 2.5rem;
-      font-weight: 700;
-      line-height: 1.35;
-      letter-spacing: -0.02em;
-      color: var(--charcoal-fg);
-      margin-bottom: 40px;
-    }
-    .story-body {
-      font-family: var(--serif-font);
-      font-size: 1.15rem;
-      color: var(--charcoal-fg);
-      font-weight: 400;
-      text-align: justify;
-      margin-bottom: 60px;
-    }
-    .story-body p { margin-bottom: 24px; text-indent: 12px; }
-    .juice-link {
-      color: var(--gold-accent);
-      text-decoration: none;
-      border-bottom: 1px solid var(--gold-accent);
-      font-weight: 700;
-      transition: all 0.3s ease;
-    }
-    .juice-link:hover {
-      color: var(--charcoal-fg);
-      border-bottom-color: var(--charcoal-fg);
-    }
-    .editorials {
-      border-top: 1px solid var(--hairline-color);
-      padding-top: 60px;
-    }
-    .editorial-label {
-      font-size: 0.8rem;
-      font-weight: 600;
-      text-transform: uppercase;
-      letter-spacing: 0.15em;
-      color: var(--gold-accent);
-      margin-bottom: 40px;
-    }
-    .editorial-flow {
-      display: flex;
-      flex-direction: column;
-      gap: 40px;
-    }
-    .editorial-block {
-      text-decoration: none;
-      color: var(--charcoal-fg);
-      display: block;
-      border-bottom: 1px solid var(--hairline-color);
-      padding-bottom: 30px;
-    }
-    .editorial-block:hover h3 { color: var(--gold-accent); }
-    .editorial-block h3 {
-      font-family: var(--serif-font);
-      font-size: 1.4rem;
-      font-weight: 700;
-      margin-bottom: 12px;
-      transition: color 0.3s ease;
-    }
-    .editorial-block p {
-      font-size: 0.95rem;
-      color: #555555;
-      font-weight: 300;
-    }
-    footer {
-      border-top: 1px solid var(--hairline-color);
-      padding-top: 40px;
-      display: flex;
-      justify-content: space-between;
-      font-size: 0.75rem;
-      letter-spacing: 0.1em;
-      color: #888888;
-    }
-    footer a { color: #888888; text-decoration: none; }
-    footer a:hover { color: var(--gold-accent); }
-    @media(max-width: 768px) {
-      header { flex-direction: column; gap: 16px; }
-      h1 { font-size: 2rem; }
-      .story-body { font-size: 1.05rem; }
-    }
-  </style>
+    </script>
+    <style>
+        :root {
+            --color-primary: #111111;
+            --color-secondary: #ffffff;
+            --color-accent: #2563eb;
+            --font-base: Inter, system-ui, -apple-system, sans-serif;
+            --space-base: 16px;
+            --space-card: 48px;
+            --space-section: 120px;
+            --container-max: 960px;
+            --border-thin: 1px solid var(--color-primary);
+            --transition-base: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: var(--font-base);
+            background-color: var(--color-secondary);
+            color: var(--color-primary);
+            line-height: 1.6;
+            -webkit-font-smoothing: antialiased;
+            overflow-x: hidden;
+        }
+
+        .x-nav-5zqw {
+            max-width: var(--container-max);
+            margin: 0 auto;
+            padding: 0 var(--space-base);
+        }
+
+        /* 헤더 & 네비게이션 */
+        .v-wrap-g3iu {
+            position: sticky;
+            top: 0;
+            background: var(--color-secondary);
+            z-index: 100;
+            border-bottom: var(--border-thin);
+        }
+
+        .x-box-qz0d {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 72px;
+        }
+
+        .v-side-u1i8 {
+            font-size: 1rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            color: var(--color-primary);
+            text-decoration: none;
+        }
+
+        .m-side-jtpm {
+            display: flex;
+            gap: 32px;
+        }
+
+        .m-side-jtpm a {
+            font-size: 0.875rem;
+            color: var(--color-primary);
+            text-decoration: none;
+            font-weight: 500;
+            position: relative;
+            transition: color var(--transition-base);
+        }
+
+        .m-side-jtpm a::after {
+            content: '';
+            position: absolute;
+            bottom: -4px;
+            left: 0;
+            width: 0;
+            height: 1.5px;
+            background: var(--color-primary);
+            transition: width var(--transition-base);
+        }
+
+        .m-side-jtpm a:hover::after {
+            width: 100%;
+        }
+
+        .k-ico-5k2j {
+            display: none;
+            flex-direction: column;
+            gap: 5px;
+            background: none;
+            border: none;
+            cursor: pointer;
+        }
+
+        .k-ico-5k2j span {
+            width: 24px;
+            height: 1.5px;
+            background: var(--color-primary);
+            transition: all var(--transition-base);
+        }
+
+        /* 히어로 섹션 - 비대칭 레이아웃 */
+        .q-card-uasv {
+            padding: 120px 0 80px;
+            position: relative;
+        }
+
+        .q-card-uasv-inner {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 48px;
+        }
+
+        .q-card-uasv-title {
+            font-size: clamp(2.5rem, 5vw, 4rem);
+            font-weight: 900;
+            line-height: 1.1;
+            letter-spacing: -0.03em;
+            color: var(--color-primary);
+            position: relative;
+        }
+
+        .q-card-uasv-title .x-wrap-3ohp {
+            color: var(--color-accent);
+            display: block;
+            margin-top: 8px;
+            font-size: 0.6em;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+            font-weight: 500;
+        }
+
+        .q-card-uasv-quote {
+            border-left: 2px solid var(--color-primary);
+            padding-left: 24px;
+            font-size: 1.125rem;
+            max-width: 540px;
+            color: #333;
+            font-weight: 400;
+            line-height: 1.7;
+        }
+
+        /* 섹션 구분선 */
+        .k-head-wkdp {
+            border: none;
+            border-top: var(--border-thin);
+            margin: 80px 0;
+        }
+
+        /* 선택 기준 섹션 - 비대칭 카드 그리드 */
+        .v-card-west {
+            padding: 80px 0;
+        }
+
+        .n-hero-2km0-label {
+            font-size: 0.75rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            color: var(--color-accent);
+            margin-bottom: 48px;
+            display: inline-block;
+        }
+
+        .v-card-west-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 24px;
+        }
+
+        .v-card-west-card {
+            border: var(--border-thin);
+            padding: 32px;
+            transition: all var(--transition-base);
+            position: relative;
+        }
+
+        .v-card-west-card:nth-child(2) {
+            transform: translateY(48px);
+        }
+
+        .v-card-west-card:hover {
+            background: var(--color-primary);
+            color: var(--color-secondary);
+            border-color: var(--color-primary);
+        }
+
+        .t-top-8hvx-number {
+            font-size: 3rem;
+            font-weight: 900;
+            line-height: 1;
+            margin-bottom: 16px;
+            color: var(--color-accent);
+            transition: color var(--transition-base);
+        }
+
+        .v-card-west-card:hover .t-top-8hvx-number {
+            color: var(--color-secondary);
+        }
+
+        .t-top-8hvx-title {
+            font-size: 1.25rem;
+            font-weight: 700;
+            margin-bottom: 12px;
+            line-height: 1.3;
+        }
+
+        .t-top-8hvx-text {
+            font-size: 0.9375rem;
+            line-height: 1.6;
+        }
+
+        /* 이용 전 확인사항 - 리스트 스타일 */
+        .m-side-vvqx {
+            padding: 80px 0;
+            background: #f8f8f8;
+        }
+
+        .m-side-vvqx-list {
+            list-style: none;
+            max-width: 600px;
+            margin-top: 48px;
+        }
+
+        .m-side-vvqx-item {
+            display: flex;
+            gap: 16px;
+            padding: 24px 0;
+            border-bottom: var(--border-thin);
+        }
+
+        .m-side-vvqx-item:last-child {
+            border-bottom: none;
+        }
+
+        .m-side-vvqx-icon {
+            width: 24px;
+            height: 24px;
+            border: var(--border-thin);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+            margin-top: 2px;
+        }
+
+        .m-side-vvqx-content h4 {
+            font-size: 1rem;
+            font-weight: 700;
+            margin-bottom: 8px;
+        }
+
+        .m-side-vvqx-content p {
+            font-size: 0.9375rem;
+            color: #444;
+        }
+
+        /* 조건별 적합성 - 비교 테이블 */
+        .q-card-nbu2 {
+            padding: 80px 0;
+        }
+
+        .q-txt-69f1-wrapper {
+            overflow-x: auto;
+            margin-top: 48px;
+        }
+
+        .q-txt-69f1 {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 0.9375rem;
+        }
+
+        .q-txt-69f1 th {
+            background: var(--color-primary);
+            color: var(--color-secondary);
+            text-align: left;
+            padding: 16px;
+            font-weight: 600;
+            white-space: nowrap;
+        }
+
+        .q-txt-69f1 td {
+            padding: 16px;
+            border-bottom: var(--border-thin);
+            vertical-align: top;
+        }
+
+        .q-txt-69f1 tr:hover td {
+            background: #f5f5f5;
+        }
+
+        .q-txt-69f1-label {
+            font-weight: 600;
+            display: block;
+            margin-bottom: 4px;
+        }
+
+        /* FAQ 섹션 */
+        .r-body-a69k {
+            padding: 80px 0;
+            background: var(--color-primary);
+            color: var(--color-secondary);
+        }
+
+        .r-body-a69k .n-hero-2km0-label {
+            color: var(--color-accent);
+        }
+
+        .r-body-a69k-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 32px;
+            margin-top: 48px;
+        }
+
+        .r-body-a69k-item {
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            padding: 32px;
+            transition: all var(--transition-base);
+        }
+
+        .r-body-a69k-item:hover {
+            border-color: var(--color-accent);
+        }
+
+        .r-body-a69k-question {
+            font-size: 1.125rem;
+            font-weight: 700;
+            margin-bottom: 16px;
+            line-height: 1.4;
+            color: var(--color-secondary);
+        }
+
+        .r-body-a69k-answer {
+            font-size: 0.9375rem;
+            line-height: 1.7;
+            color: rgba(255, 255, 255, 0.8);
+        }
+
+        /* 작성자 바이오 */
+        .k-side-o436 {
+            padding: 48px 0;
+            border-top: var(--border-thin);
+        }
+
+        .k-side-o436-content {
+            display: flex;
+            gap: 24px;
+            align-items: center;
+        }
+
+        .k-side-o436-avatar {
+            width: 64px;
+            height: 64px;
+            border: var(--border-thin);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 900;
+            font-size: 1.25rem;
+            flex-shrink: 0;
+        }
+
+        .k-side-o436-info h4 {
+            font-size: 1rem;
+            font-weight: 700;
+            margin-bottom: 4px;
+        }
+
+        .k-side-o436-info p {
+            font-size: 0.875rem;
+            color: #666;
+        }
+
+        /* 푸터 */
+        .r-box-99tm {
+            padding: 32px 0;
+            border-top: var(--border-thin);
+            font-size: 0.8125rem;
+            color: #666;
+            text-align: center;
+        }
+
+        /* 반응형 */
+        @media (max-width: 768px) {
+            .m-side-jtpm {
+                display: none;
+                position: absolute;
+                top: 72px;
+                left: 0;
+                right: 0;
+                background: var(--color-secondary);
+                flex-direction: column;
+                padding: 24px;
+                border-bottom: var(--border-thin);
+                gap: 16px;
+            }
+
+            .m-side-jtpm.active {
+                display: flex;
+            }
+
+            .k-ico-5k2j {
+                display: flex;
+            }
+
+            .v-card-west-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .v-card-west-card:nth-child(2) {
+                transform: none;
+            }
+
+            .r-body-a69k-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .k-side-o436-content {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .q-card-uasv-title {
+                font-size: 2.5rem;
+            }
+
+            .q-card-uasv-quote {
+                margin-top: 32px;
+            }
+        }
+    </style>
 </head>
 <body>
-  <div class="container">
-    <header>
-      <a href="/" class="brand">EDITORIAL.KR</a>
-      <nav><a href="index.html">HOME</a> | <a href="sitemap.xml">SITEMAP</a></nav>
-    </header>
-    <main>
-      <div class="kicker">BOUTIQUE KR / SELECTION ACCENT</div>
-      <h1>비주류 문화 지식 저널 및 아카이브</h1>
-      <div class="story-body">
-        환영합니다. 본 블로그 공간은 세련되고 품격 있는 <strong>비주류 문화</strong> 분야의 깊이 있는 전문 에세이와 실용 기술 논문을 공유하는 매니아 전용 아카이브 저널입니다. 아래의 최근 기사 목록을 통해 새로운 지식의 지평을 넓혀 보시기 바랍니다.
-      </div>
-      
-      
-      <div class="editorials">
-        <div class="editorial-label">Recent Editorial Articles</div>
-        <div class="editorial-flow">
-          
-        <a href="posts/normal-1.html" class="editorial-block">
-          <h3>1960년대 한국 영화 손글씨 포스터 서체(Typography)의 시각 디자인적 보존 가치</h3>
-          <p>디지털 폰트가 전무하던 격변의 1960년대 한국 극장가를 상징하는 극영화 손그림 포스터와 당시 간판 화가들의 붓끝에서 창조된 특유의 볼드한 고딕 타이포그래피 서체들은 당대 시대적 ...</p>
-        </a>
-      
-
-        <a href="posts/normal-2.html" class="editorial-block">
-          <h3>전통 악기 장인들의 보존 노하우: 해금 실크 현(Silk String)의 천연 비왁스 코팅 기법</h3>
-          <p>한국 전통 찰현악기인 해금의 뽕나무 현에 가해지는 마찰력을 극대화하고 온도 및 습도 편차에 따르는 실크 현의 수축 팽창을 방어하기 위해 벌꿀에서 추출한 밀랍 왁스와 천연 벌꿀을 엄...</p>
-        </a>
-      
-
-        <a href="posts/normal-3.html" class="editorial-block">
-          <h3>활판 인쇄술의 숨겨진 보석: 19세기 납 활자(Lead Type) 캐스팅 자형 조각 기술</h3>
-          <p>활자를 한 자 한 자 구리 틀에 부어 굳히던 19세기 활판 금속 활자 조각술은 잉크가 젖은 종이 속으로 압착되어 들어갈 때 생기는 특유의 깊은 양각 엠보싱 텍스처와 미세하게 무너지...</p>
-        </a>
-      
-
-        <a href="posts/juice-1.html" class="editorial-block">
-          <h3>아날로그 문화 컬렉터들이 선정한 PBN 빌더 트렌드 정보 공유 리포트</h3>
-          <p>시간의 깊은 숨결이 고스란히 각인된 명품 악기 해금 현의 장인정신과 잊힌 60년대 활판 서체의 고독한 인쇄 미학을 추적하며 아날로그 감성을 축적해 나가는 컬렉터분들이라면, 소중한 ...</p>
-        </a>
-      
-
-        <a href="posts/juice-2.html" class="editorial-block">
-          <h3>아날로그 문화 컬렉터들이 선정한 PBN 빌더 트렌드 정보 공유 리포트</h3>
-          <p>시간의 깊은 숨결이 고스란히 각인된 명품 악기 해금 현의 장인정신과 잊힌 60년대 활판 서체의 고독한 인쇄 미학을 추적하며 아날로그 감성을 축적해 나가는 컬렉터분들이라면, 소중한 ...</p>
-        </a>
-      
+    <header class="v-wrap-g3iu">
+        <div class="x-nav-5zqw">
+            <nav class="x-box-qz0d">
+                <a href="/" class="v-side-u1i8">마포 노래방 가이드</a>
+                <button class="k-ico-5k2j" id="menuBtn" aria-label="메뉴 열기">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <div class="m-side-jtpm" id="mainMenu">
+                    <a href="#criteria">선택 기준</a>
+                    <a href="#checklist">확인사항</a>
+                    <a href="#comparison">비교 안내</a>
+                    <a href="#faq">자주 묻는 질문</a>
+                </div>
+            </nav>
         </div>
-      </div>
+    </header>
+
+    <main>
+        <!-- 히어로 섹션: 키네틱 비대칭 -->
+        <section class="q-card-uasv">
+            <div class="x-nav-5zqw">
+                <div class="q-card-uasv-inner">
+                    <h1 class="q-card-uasv-title">
+                        마포 지역 노래방의<br>합리적인 선택을 위한<br>데이터 기반 가이드
+                        <span class="x-wrap-3ohp">Professional Selection Guide</span>
+                    </h1>
+                    <blockquote class="q-card-uasv-quote">
+                        마포구 음식점업 중 27.3%는 단체 회식을 위해 별도의 예약 시스템을 운영합니다. 단순한 노래 공간이 아닌, 목적에 부합하는 환경을 선택하는 것이 합리적인 이용의 시작입니다. 본 가이드는 방문 목표에 따른 체계적인 분석을 제공합니다.
+                    </blockquote>
+                </div>
+            </div>
+        </section>
+
+        <hr class="k-head-wkdp" style="margin: 0 72px;">
+
+        <!-- 선택 기준 섹션 -->
+        <section class="v-card-west" id="criteria">
+            <div class="x-nav-5zqw">
+                <div class="n-hero-2km0-label">Primary Selection Criteria</div>
+                <h2 class="sr-only">선택 기준</h2>
+                <div class="v-card-west-grid">
+                    <div class="v-card-west-card">
+                        <div class="t-top-8hvx-number">01</div>
+                        <h3 class="t-top-8hvx-title">환경적 요건</h3>
+                        <p class="t-top-8hvx-text">방음 시설의 등급, 룸 내부 크기, 좌석 구성, 그리고 조명 시스템의 유연성. 기본적인 하드웨어 스펙은 이용 만족도에 직접적인 영향을 미칩니다.</p>
+                    </div>
+                    <div class="v-card-west-card">
+                        <div class="t-top-8hvx-number">02</div>
+                        <h3 class="t-top-8hvx-title">서비스 수준</h3>
+                        <p class="t-top-8hvx-text">도우미 유무, 비품 상태, 음향 장비 브랜드, 그리고 위생 관리 수준. 눈에 보이지 않는 서비스 품질은 예약 전 문의와 현장 방문을 통해 확인해야 합니다.</p>
+                    </div>
+                    <div class="v-card-west-card">
+                        <div class="t-top-8hvx-number">03</div>
+                        <h3 class="t-top-8hvx-title">접근성 및 편의</h3>
+                        <p class="t-top-8hvx-text">대중교통 접근성, 주차 공간 확보 여부, 근처 숙박 시설 연계 가능성. 인원 규모와 동선을 고려한 물리적 접근성은 계획의 핵심 요소입니다.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <hr class="k-head-wkdp" style="margin: 0 72px;">
+
+        <!-- 이용 전 확인사항 -->
+        <section class="m-side-vvqx" id="checklist">
+            <div class="x-nav-5zqw">
+                <div class="n-hero-2km0-label">Pre-Visit Checklist</div>
+                <h2 class="v-card-west-card" style="font-size: 2rem; border: none; padding: 0; margin-bottom: 32px;">방문 전 반드시 확인해야 할 사항</h2>
+                <ul class="m-side-vvqx-list">
+                    <li class="m-side-vvqx-item">
+                        <div class="m-side-vvqx-icon">✓</div>
+                        <div class="m-side-vvqx-content">
+                            <h4>예약 가능 시간대 및 취소 규정</h4>
+                            <p>원하는 시간대의 예약 가능 여부, 그리고 예약 취소나 변경 시 발생할 수 있는 위약금 조건을 반드시 사전에 확인합니다.</p>
+                        </div>
+                    </li>
+                    <li class="m-side-vvqx-item">
+                        <div class="m-side-vvqx-icon">✓</div>
+                        <div class="m-side-vvqx-content">
+                            <h4>최종 이용 요금의 구성 요소</h4>
+                            <p>기본 대여료 외에 인원 수에 따른 추가 요금, 주류 및 음식물의 가격, 그리고 봉사료나 세금 포함 여부를 명확히 파악해야 합니다.</p>
+                        </div>
+                    </li>
+                    <li class="m-side-vvqx-item">
+                        <div class="m-side-vvqx-icon">✓</div>
+                        <div class="m-side-vvqx-content">
+                            <h4>특수 요구사항 수용 가능 여부</h4>
+                            <p>빔 프로젝터 사용, 외부 음식 반입, 혹은 특정 장비 연결 등 그룹의 특별한 요구사항을 수용할 수 있는지 확인합니다.</p>
+                        </div>
+                    </li>
+                    <li class="m-side-vvqx-item">
+                        <div class="m-side-vvqx-icon">✓</div>
+                        <div class="m-side-vvqx-content">
+                            <h4>보안 및 귀중품 관리 방침</h4>
+                            <p>개인 소지품의 안전한 보관 공간 유무, 그리고 이용 중 발생할 수 있는 분실이나 파손에 대한 업장의 대응 방침을 사전에 인지합니다.</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <hr class="k-head-wkdp" style="margin: 0 72px;">
+
+        <!-- 조건별 적합성 비교 -->
+        <section class="q-card-nbu2" id="comparison">
+            <div class="x-nav-5zqw">
+                <div class="n-hero-2km0-label">Suitability Comparison</div>
+                <h2 class="v-card-west-card" style="font-size: 2rem; border: none; padding: 0; margin-bottom: 32px;">목적별 적합성 비교 분석</h2>
+                <div class="q-txt-69f1-wrapper">
+                    <table class="q-txt-69f1">
+                        <thead>
+                            <tr>
+                                <th scope="col">평가 항목</th>
+                                <th scope="col">소규모 프라이빗 회식</th>
+                                <th scope="col">대규모 단체 행사</th>
+                                <th scope="col">비즈니스 접대</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><span class="q-txt-69f1-label">핵심 요구사항</span></td>
+                                <td>완벽한 방음, 독립적 룸 공간, 분위기 전환 가능</td>
+                                <td>최소 2개 이상의 인접 룸, 주차 용량, 화장실 접근성</td>
+                                <td>고급 인테리어, 최신 음향, 맞춤형 서비스</td>
+                            </tr>
+                            <tr>
+                                <td><span class="q-txt-69f1-label">예약 리드타임</span></td>
+                                <td>1~3일 전 권장</td>
+                                <td>2주 이상 사전 예약 필수</td>
+                                <td>1주일 이상 사전 예약 및 상담</td>
+                            </tr>
+                            <tr>
+                                <td><span class="q-txt-69f1-label">예상 지출 범위</span></td>
+                                <td>시간당 과금 기준, 중저가</td>
+                                <td>패키지 요금, 중가 이상</td>
+                                <td>시간당 과금 기준, 고가</td>
+                            </tr>
+                            <tr>
+                                <td><span class="q-txt-69f1-label">주의 사항</span></td>
+                                <td>이웃 소음 문제 민감, 최대 인원 제한 확인</td>
+                                <td>동선 분리 필요, 식사 연계 시 별도 공간 확보</td>
+                                <td>프라이버시 확보, 예약 시 '비즈니스' 명시</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <hr class="k-head-wkdp" style="margin: 0 72px;">
+
+        <!-- FAQ 섹션 -->
+        <section class="r-body-a69k" id="faq">
+            <div class="x-nav-5zqw">
+                <div class="n-hero-2km0-label">Frequently Asked Questions</div>
+                <h2 class="v-card-west-card" style="font-size: 2rem; border-color: rgba(255,255,255,0.2); color: var(--color-secondary);">자주 묻는 질문</h2>
+                <div class="r-body-a69k-grid">
+                    <article class="r-body-a69k-item">
+                        <h3 class="r-body-a69k-question">마포 노래방에서 가장 중요한 선택 기준은 무엇인가요?</h3>
+                        <p class="r-body-a69k-answer">방문 목적이 가장 중요합니다. 대규모 인원 회식을 위해서는 프라이빗 룸 비율과 주차 공간 확보 여부를, 고품질 음향을 원한다면 최신 장비와 방음 상태를 반드시 확인해야 합니다. 목적에 따른 우선순위를 설정하는 것이 합리적 선택의 첫 단계입니다.</p>
+                    </article>
+                    <article class="r-body-a69k-item">
+                        <h3 class="r-body-a69k-question">주말과 평일 이용 시 차이점이 있나요? 예약이 필수인가요?</h3>
+                        <p class="r-body-a69k-answer">네, 상당한 차이가 있습니다. 마포지역 노래방은 주말 저녁과 금요일 밤에 수요가 집중되어 예약이 거의 필수적입니다. 평일 오후에는 상대적으로 여유롭고 주말 대비 합리적인 요금으로 이용 가능한 경우가 많으므로, 유연한 일정이 가능하다면 평일 방문을 권장합니다.</p>
+                    </article>
+                    <article class="r-body-a69k-item">
+                        <h3 class="r-body-a69k-question">마포 지역 노래방 근처에 주차하기가 어렵나요?</h3>
+                        <p class="r-body-a69k-answer">상권과 노래방 시설에 따라 크게 다릅니다. 대로변이나 대형 건물 내 입점한 업장은 지하 주차장을 갖추고 있는 경우가 많지만, 골목 상권이나 1·2인 소규모 업장은 주차 공간이 매우 협소할 수 있습니다. 방문 전 전화로 주차 가능 여부와 요금을 사전 확인하는 것이 필수적입니다.</p>
+                    </article>
+                    <article class="r-body-a69k-item">
+                        <h3 class="r-body-a69k-question">비즈니스 접대 목적으로 적합한 고급 노래방은 어떻게 찾나요?</h3>
+                        <p class="r-body-a69k-answer">우선 방음 수준, 룸 인테리어, 비품 상태, 그리고 주류와 음식 메뉴의 품질을 종합적으로 평가해야 합니다. 온라인에서 해당 업장의 블로그나 리뷰를 통해 실제 룸 사진과 이용 후기를 확인하는 것이 도움이 됩니다. 또한, 전화 예약 시 '비즈니스 회식'임을 명시하고 별도 룸 배정이나 메뉴 상담을 요청하는 것이 효과적입니다.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- 작성자 바이오 -->
+        <section class="k-side-o436">
+            <div class="x-nav-5zqw">
+                <div class="k-side-o436-content">
+                    <div class="k-side-o436-avatar">LIQ</div>
+                    <div class="k-side-o436-info">
+                        <h4>로컬 인사이트 큐레이터</h4>
+                        <p>서울 지역 업소 정보를 5년간 정리해온 로컬 가이드. 데이터 기반의 객관적인 분석으로 방문자의 합리적인 선택을 돕습니다.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
-    <footer>
-      <div>&copy; 2026 EDITORIAL.KR. ALL RIGHTS RESERVED.</div>
-      <div>
-        <a href="sitemap.xml">SITEMAP</a> | 
-        <a href="#">PRIVACY</a> | 
-        <a href="#">DISCLAIMER</a>
-      </div>
+
+    <footer class="r-box-99tm">
+        <div class="x-nav-5zqw">
+            <p>© 2024 마포 노래방 추천 가이드. 모든 권리 보유.</p>
+        </div>
     </footer>
-  </div>
+
+    <script>
+        // 햄버거 메뉴 토글 스크립트
+        document.getElementById('menuBtn').addEventListener('click', function() {
+            const menu = document.getElementById('mainMenu');
+            menu.classList.toggle('active');
+            const spans = this.querySelectorAll('span');
+            if (menu.classList.contains('active')) {
+                spans[0].style.transform = 'rotate(45deg) translate(5px, 5px)';
+                spans[1].style.opacity = '0';
+                spans[2].style.transform = 'rotate(-45deg) translate(5px, -5px)';
+            } else {
+                spans[0].style.transform = 'none';
+                spans[1].style.opacity = '1';
+                spans[2].style.transform = 'none';
+            }
+        });
+
+        // 메뉴 항목 클릭 시 메뉴 닫기 (모바일)
+        document.querySelectorAll('#mainMenu a').forEach(function(link) {
+            link.addEventListener('click', function() {
+                if (window.innerWidth <= 768) {
+                    document.getElementById('mainMenu').classList.remove('active');
+                    const spans = document.getElementById('menuBtn').querySelectorAll('span');
+                    spans[0].style.transform = 'none';
+                    spans[1].style.opacity = '1';
+                    spans[2].style.transform = 'none';
+                }
+            });
+        });
+    </script>
 </body>
 </html>
